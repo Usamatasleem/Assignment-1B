@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Responsive</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .left, .right {
+            float: left;
+            width: 20%;
+        }
+
+        .main {
+            float: left;
+            width: 60%;
+        }
+
+        @media screen and (max-width: 800px) {
+            .left, .main, .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dawn News</h1>
+    </header>
+
+    <section>
+        <img src="picture1.jpg" style="width: 100%;">
+        <p>The Supreme Court (SC) on Friday approved the post-arrest bail of former prime minister Imran Khan and
+            ex-foreign minister Shah Mahmood Qureshi, both of whom are incarcerated at Adiala Jail, in the cipher
+            case.
+
+            The top court also directed the PTI leaders to submit surety bonds worth Rs1 million each.
+
+            Despite being granted bail, Imran is not expected to be released as he has also been arrested in the
+            Toshakhana and Al-Qadir Trust cases. However, Qureshi’s daughter said she expected her father would be
+            released as his arrest was not required in any other case.
+
+            The order was issued by a three-member bench headed by Justice Sardar Tariq Masood and comprising
+            Justices Athar Minallah and Syed Mansoor Ali Shah on a set of PTI petitions.</p>
+    </section>
+
+    <img src="img_girl.jpg" style="max-width: 100%; height: auto;">
+    <picture>
+        <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+        <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+        <source srcset="flowers.jpg">
+        <img src="img_smallflower.jpg" alt="Flowers">
+    </picture>
+
+    <h1 style="font-size: 10vw">Hello World</h1>
+
+    <footer>
+        <p>&copy; 2023 Dawn News</p>
+    </footer>
+
+
+
+    <div class="w3-container w3-green">
+        <h1>W3Schools Demo</h1>
+        <p>Resize this responsive page!</p>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>It is the most populous city in the United Kingdom,
+                with a metropolitan area of over 13 million inhabitants.</p>
+        </div>
+
+        <div class="w3-third">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+            <p>The Paris area is one of the largest population centers in Europe,
+                with more than 12 million inhabitants.</p>
+        </div>
+
+        <div class="w3-third">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+            <p>It is the center of the Greater Tokyo Area,
+                and the most populous metropolitan area in the world.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+        </div>
+        <div class="col-sm-4">
+            <h3>Column 3</h3>
+            <p>Lorem ipsum...</p>
+        </div>
+    </div>
+</div>
+
+<button> <a href="head.html" target="_blank">Previous</a></button>
+<button> <a href="computercode.html" target="_blank">Next</a></button>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DivElement</title>
+    <style>
+        .mycontainer {
+            display: flex;
+        }
+        .mycontainer > div {
+            width:33%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Div Element</h1>
+    <p>Lorem Ipsum <div>I am a div</div> dolor sit amet.</p>
+
+    <div class="mycontainer">
+        <div>
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+        <div>
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 600.000 inhabitants.</p>
+        </div>
+
+        <div>
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has almost 3 million inhabitants.</p>
+        </div>
+    </div>
+
+    <button onclick="navigateToPrevious()">Previous</button>
+    <button onclick="navigateToNext()">Next</button>
+
+    <script>
+        function navigateToPrevious() {
+            // Navigate to the previous page
+            window.location.href = 'blockinline.html';  // Change this URL to your previous page's URL
+        }
+        
+        function navigateToNext() {
+            // Navigate to the next page
+            window.location.href = 'attribute.html';  // Change this URL to your next page's URL
+        }
+    </script>
+
+</body>
+</html>

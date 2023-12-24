@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iframe</title>
+    <h1>Iframe</h1>
+   
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R7oN47RhLxw?si=vRoV3k4cEBwm7BTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+    <iframe src="demo_iframe.htm" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+    <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+    <iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>
+    <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+
+
+
+
+    <button onclick="navigateToPrevious()">Previous</button>
+    <button onclick="navigateToNext()">Next</button>
+
+    <script>
+        function navigateToPrevious() {
+            // Navigate to the previous page
+            window.location.href = 'Id.html';  // Change this URL to your previous page's URL
+        }
+
+        function navigateToNext() {
+            // Navigate to the next page
+            window.location.href = 'filepaths.html';  // Change this URL to your next page's URL
+        }
+    </script>
+
+</body>
+</html>
